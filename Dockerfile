@@ -5,8 +5,8 @@ WORKDIR /app
 COPY package.json bun.lockb ./
 RUN bun install
 
-COPY src/ .
+COPY src ./src
 
 ENV NODE_ENV production
 
-CMD [ "bun", "run", "src/index.ts" ]
+CMD [ "bun", "run", "/app/src/index.ts" ]
