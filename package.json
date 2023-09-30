@@ -1,6 +1,6 @@
 {
   "name": "alex",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "license": "GPL-3.0",
   "devDependencies": {

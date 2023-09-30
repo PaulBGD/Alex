@@ -1,5 +1,5 @@
 import {Client, Events, GatewayIntentBits} from 'discord.js';
-import {start} from "./src/setup.ts";
+import {start} from "./setup.ts";
 
 const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers]});
 
